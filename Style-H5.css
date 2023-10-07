@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #5CE1E6;
+   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.superior{
+    width: 80%;
+    height: 50%;
+    display: flex;
+}
+.franja{
+    width: 10%;
+    height: 100%;
+}
+div nav{
+    float: right;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+}
+.artista{
+    width: 45%;
+    height: 100%;
+}
+img{
+    width: 80%;
+    height: 100%;
+}
+.parrafo-1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parrafo-1 h1{
+    font-family: 'Bakbak One', cursive;
+    letter-spacing: 0.3vh;
+    font-size: 4vh;
+}
+.inferior{
+    display: flex;
+    width: 80%;
+    height: 50%;
+}
+.parrafo-2{
+    width: 35.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parrafo-2 h3{
+    font-family: 'Bakbak One', cursive;
+    letter-spacing: 0.3vh;
+    font-size: 4vh;
+}
+.artista-2{
+    width: 45%;
+    height: 100%;
+}
+.Rapero-2{
+    width: 70%;
+}
+
+@media (min-width:600px){
+    .container{
+        display: flex; 
+        justify-content: center;
+    }
+    .superior nav{
+        width: 60%;
+    }
+    .inferior nav{
+        width: 60%;
+    }
+}
+
+@media (max-width:600px){
+    .container{
+        display: block; 
+    }
+    .superior{
+        width: 95%;
+        height: 50%;        
+    }
+    .artista{
+        width: 55%;
+    }
+    img{
+        width: 100%;
+    }
+    .parrafo-1{
+        margin-left: 0;
+        width: 50%;
+    }
+    .parrafo-1 h1{
+        font-size: 3vh;
+    }
+    
+    .parrafo-2{
+        margin-left: 50PX;
+    }
+    .parrafo-2 h3{
+        font-size: 2.5vh;
+    }
+    .Rapero-2{
+        width: 100%;
+        margin-left: 40PX;
+    }
+}
